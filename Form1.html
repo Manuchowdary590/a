@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINAL FORM</title>
+    <link rel="Stylesheet" href="Style1.css">
+    
+</head>
+<body>
+    <h2>REGISTRATION FORM</h2>
+    <form >
+        <fieldset>
+            <legend >YOUR DETAILS</legend>
+        <label for="fname">FIRST NAME</label>
+        <input type="text" name="fname" required>
+        <label for="lname">LAST NAME</label>
+        <input type="text" name="lname" required>
+        <label for="E-Mail">E-Mail</label>
+        <input type="email" name="email" required>
+
+        <label for="Password">PASSWORD</label>
+        <input type="Password" name="Password" required>
+        
+        <label for="Phonenumber">PHONENUMBER</label>
+        <input type="tel" name="tel" required>
+        <label for="Gender">GENDER</label>
+        <select id="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <label for="Birthday">BIRTHDAY</label>
+        <input type="date" name="BIRTHDAY">
+        <label for="COLLEGENAME">COLLEGENAME</label>
+        <input type="text" name="COLLEGENAME" required>
+
+         <label for="BRANCH">BRANCH</label>
+        <input type="text" name="BRANCH">
+
+        <h4>YEAR</h4>
+        <input type="radio" id="1st" name="year" value="1st">
+        <label for="1st">1st</label><br>
+        <input type="radio" id="2nd" name="year" value="2nd">
+        <label for="2nd">2nd</label><br>
+        <input type="radio" id="3rd" name="year" value="3rd">
+        <label for="3rd">3rd</label><br>
+        <input type="radio" id="4th" name="year" value="4th">
+        <label for="4th">4th</label><br>
+
+        <label for="specialization">CHOOSE YOUR SPECIALIZATION:</label>
+        <select name="specialization" id="specialization">
+            <optgroup label="CSE">
+                <option value="AI">AI</option>
+                <option value="ML">ML</option>
+                <option value="Ds">DS</option>
+            </optgroup>
+            <optgroup label="ECE">
+                <option value="VLSI">VLSI</option>
+            </optgroup>
+        </select>
+
+       
+       <h4>LANGUAGES</h4>
+       <input type="checkbox" id="lang1" name="lang1" value="Telugu">
+       <label for="Lang1"> Telugu</label>
+       <input type="checkbox" id="lang2" name="lang2" value="Hindi">
+       <label for="Lang2">Hindi</label>
+       <input type="checkbox" id="lang3" name="lang3" value="English">
+       <label for="Lang3">English</label>
+       
+        
+        <label for="favcolor">YOUR FAVOURITECOLOR:</label>
+        <input type="color" id="favcolor" name="favcolor">
+
+        <label for="About">ABOUT</label>
+        <input type="textarea" name="About" required>
+
+
+
+        <label for="myfile">UPLOAD RESUME:</label>
+        <input type="file" id="myfile" name="myfile" required>
+
+        <div id="Submit">
+            <input type="Submit" value="SUBMIT">
+        </div>
+        
+        <a href="https://blog.talkcharge.com/top-multinational-companies-in-india/" target="_blank">VISIT TOP MNCS IN INDIA</a>
+        </fieldset>
+    </form>
+</body>
+</html>

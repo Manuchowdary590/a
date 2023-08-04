@@ -1,0 +1,29 @@
+body{
+    background-color: burlywood;
+}
+label{
+    display:block;
+    padding:10px;
+}
+form{
+    text-align: center;
+    background-color: darkgrey;
+    
+    margin:0px 500px 0px 500px;
+}
+legend{
+    border-radius: 100%;
+}
+
+h2{
+    text-align: center;
+}
+#Submit{
+    padding:10px;
+}
+input[type=Submit]{
+    background-color: palevioletred;
+}
+input[type=Submit]:hover{
+    background-color: darkseagreen;
+}
